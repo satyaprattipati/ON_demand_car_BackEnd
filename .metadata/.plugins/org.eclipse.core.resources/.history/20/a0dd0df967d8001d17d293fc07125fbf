@@ -1,0 +1,14 @@
+server.port=9091
+##spring.data.mongodb.uri=mongodb+srv://SIBEVARA:Siva@cluster0.vlk2ru1.mongodb.net/Client?retryWrites=true&w=majority
+#spring.data.mongodb.uri=mongodb+srv://satya:Satya@cluster0.01hmatw.mongodb.net/carwash?retryWrites=true&w=majority
+mongodb+srv://satya:Satya@cluster0.01hmatw.mongodb.net/admindb?retryWrites=true&w=majority
+spring.mvc.pathmatch.matching-strategy=ant-path-matcher
+spring.data.mongodb.database=admindb
+spring.application.name=admin-service
+eureka.instance.hostname=localhost
+logging.level.com.cg.search.service.AdminServiceImplementation==info
+
+#Logging pattern for the console
+logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss} - %msg%n
+#logging.path=logs
+logging.file.path=logs
